@@ -1,11 +1,8 @@
 .test {
   box-shadow: 12px 12px 2px 1px black);
-
 }
 .home{
-    background:url("img/bg_home.jpg");
-    height: 500px;
-    
+    background:url("img/bg_home.jpg");        
 }
 .logo {
     margin-right: 150px;
@@ -13,7 +10,7 @@
 li{display:inline-block;min-width:50px;}
 li a {
     text-decoration:none;
-    line-height: 70px;
+    line-height: 40px;
     padding: 0 10px;
     text-align: center;
     font-size: 1.2em;
@@ -39,7 +36,32 @@ li a:hover:after {
 li a:hover {
     color: #008348;
 }
-
-@media screen and (max-width: 1000px) and (orientation: portrait) {
-   
+.home {
+  padding-top: 15px;
 }
+.card {
+  box-shadow: 1px 1px 5px #444;
+  margin-bottom: 15px;
+}
+.welcom {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #444;
+}
+.welcom h1{
+  padding-left: 10px;
+}
+.welcom p{
+  padding-bottom: 15px;
+}
+@media screen and (max-width: 991px) and (orientation: portrait) {
+  .welcom h1{
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+}
+.program {
+  height: 500px;
+}
+
+
