@@ -63,5 +63,20 @@ li a:hover {
 .program {
   height: 500px;
 }
+.card-img-top {
+padding: 15px;
+}
+h5 {
+  text-decoration: underline;
+}
+.card {
+  margin-bottom: 30px;
+}
+.card-body a {
+  color: #008348;
+}
+.boutique {
+  margin-top: 30px;
+}
 
 
