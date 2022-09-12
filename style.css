@@ -1,40 +1,44 @@
-.test {
-  box-shadow: 12px 12px 2px 1px black);
-}
-.home{
-    background:url("img/bg_home.jpg");        
-}
+/******** HEADER NAVIGATION ********/
 .logo {
-    margin-right: 150px;
+  margin-right: 150px;
 }
-li{display:inline-block;min-width:50px;}
+li {
+  display:inline-block;
+  min-width:50px;
+}
 li a {
-    text-decoration:none;
-    line-height: 40px;
-    padding: 0 10px;
-    text-align: center;
-    font-size: 1.2em;
-    color: #444444;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 15px;
+  text-decoration:none;
+  line-height: 40px;
+  padding: 0 10px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #444444;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
 }
 li a:after {
-  content: '';
-  display: block;
-  margin: auto;
-  height: 1px;
-  width: 0;
-  background: transparent;
-  transition: width .5s ease, background-color .5s ease;
+content: '';
+display: block;
+margin: auto;
+height: 1px;
+width: 0;
+background: transparent;
+transition: width .5s ease, background-color .5s ease;
 }
 li a:hover:after {
-  width: 90%;
-  background: #444;  
+width: 90%;
+background: #444;  
 }
 li a:hover {
-    color: #008348;
+  color: #008348;
+}
+/******** PAGE ACCUEIL ********/
+.home{
+    background:url("img/bg_home.jpg");  
+    background-repeat: no-repeat; 
+    background-attachment: fixed;     
 }
 .home {
   padding-top: 15px;
@@ -64,10 +68,11 @@ li a:hover {
     margin-top: 15px;
     margin-bottom: 30px;
   }
-
 }
-.program {
-  height: 500px;
+@media screen and (max-width: 1200px) and (orientation: portrait) {  
+  .supprimer {
+    display: none;
+  }
 }
 .card-img-top {
 padding: 15px;
@@ -81,11 +86,11 @@ h5 {
 .card-body a {
   color: #008348;
 }
-.boutique {
-  margin-top: 30px;
-}
+/******** PAGE LE CLUB ********/
 .club {
-  background:url("img/fond-club.jpg"); 
+  background:url("img/fond-club.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   padding-top: 15px;
 }
 .text-club {
@@ -105,7 +110,61 @@ h5 {
   box-shadow: 1px 1px 5px #444;
   text-align: right;
 }
+.seniorH{
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px #444;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.seniorH h5{
+  text-align: center;
+}
+/******** PAGE INFO PRATIQUE ********/
+.info {
+  background:url("img/fond-club.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+}
+.horaire{
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px #444;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.horaire h5{
+  text-align: center;
+}
 
+/******** PAGE CONTACT********/
+.contact {
+  background:url("img/fond_contact.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.formulaire {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #444;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.lieu{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #444;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.carte{
+  margin-top: 15px;
+}
+/******** FOOTER ********/
 footer{
   padding-top: 15px;
   padding-bottom: 15px;
@@ -129,27 +188,4 @@ footer{
   text-align: center;
 }
 
-.contact {
-  background:url("img/fond_contact.jpg");
-  background-repeat: no-repeat;
-  padding-top: 25px;
-  padding-bottom: 30px;
-}
-.formulaire {
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 1px 1px 5px #444;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.lieu{
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 1px 1px 5px #444;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.carte{
-  margin-top: 15px;
-}
 
