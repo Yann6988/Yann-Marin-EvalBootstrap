@@ -84,9 +84,34 @@ h5 {
 .boutique {
   margin-top: 30px;
 }
+.club {
+  background:url("img/fond-club.jpg"); 
+  padding-top: 15px;
+}
+.text-club {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #444;
+}
+.text-club h1{
+  padding-left: 10px;
+}
+.text-club p{
+  padding-bottom: 15px;
+}
+.saison-club {
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px #444;
+  text-align: right;
+}
+
 footer{
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.adresse {
+  text-align: right;
 }
  .plan-site a{
   color: #444;
