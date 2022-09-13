@@ -34,6 +34,9 @@ background: #444;
 li a:hover {
   color: #008348;
 }
+.active {
+  color: #008348;
+}
 /******** PAGE ACCUEIL ********/
 .home{
     background:url("img/bg_home.jpg");  
@@ -85,6 +88,7 @@ h5 {
 }
 .card-body a {
   color: #008348;
+  text-decoration: underline;
 }
 /******** PAGE LE CLUB ********/
 .club {
