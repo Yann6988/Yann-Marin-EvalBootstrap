@@ -67,9 +67,28 @@ li a:hover {
     font-size: 1.2em;
     font-weight: 600;
   }
+  .text-club h1{
+    font-size: 1.2em;
+    font-weight: 600;
+  }
   .lieu{
     margin-top: 15px;
     margin-bottom: 30px;
+  }
+  .plan-site {
+    display: none;
+  }
+  .saison-club {
+    text-align: center !important;
+  }
+  .seniorH {
+    font-size: x-small;
+  }
+  .horaire {
+    font-size: x-small;
+  }
+  .logo {
+    margin: 0;    
   }
 }
 @media screen and (max-width: 1200px) and (orientation: portrait) {  
